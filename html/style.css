@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://mediaim.expedia.com/destination/1/f8d639d536af05b370bb6a5020677692.jpg') ;
+    background-repeat: no repeat;
+    background-size: cover;
+
+
+}
+.div1 {
+    box-sizing: border-box;
+    
+    border: 20px solid #969696;
+    background: #d9dbda;
+    margin: 10px;
+  }
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  nav{
+    width:100%; height: 15vh;
+    background: rgba(168, 24, 24, 0.3);
+    color: white; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+.logo{
+    width: 25%; text-align: center;
+}
+.menu{
+    width: 40%; color: white;
+    display: flex; justify-content: space-between;
+    font-weight: bold;
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex; justify-content: center; align-items: center; text-align: center; color: white;
+
+}
+section h3{
+    font-size: 45px; font-weight: 250; letter-spacing: 3px;
+}
+section h1{
+    margin: 30px,0,20px,0;
+    font-weight: 700;
+    font-size: 55px;
+    text-shadow: 2px,1px,5px,black;
+}
+section p{
+    font-size: 30px; font-weight: 100;
+}
+section .btnone{
+    /* color: #000; */
+    background:#fff ;
+}
+.monument{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.topic{
+    display: flex; justify-content: center; ; text-align: center; font-size: 20px; font-weight: bold;
+} 
+
+.his
+{
+    display: flex; justify-content: center; ; text-align: center; font-size: 20px; font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+}
+.taj
+{
+    text-align: center;
+}
+/* .no1{
+    background-image: url('https://wallpapercave.com/wp/wp9686005.jpg');
+    background-position: 25px; 
+}*/
+.no1 p{
+     display: flex; justify-content: center; ; text-align: center; font-size: 20px; font-weight: bold;
+}
+.no1 h1{
+    display: flex; justify-content: center; margin: 60px,0,30px,0; 
+}
+.no2{
+    background-image: url('');
+}
+.no2 p{
+    display: flex; justify-content: center; ; text-align: center; font-size: 20px;font-weight: bold;
+}
+.no2 h1{
+    display: flex; text-align: center; margin: 60px,0,30px,0; 
+}
+.no3 p{
+    display: flex; justify-content: center; ; text-align: center; font-size: 20px;font-weight: bold;
+}
+.no3 h1{
+    display: flex; justify-content: center; margin: 60px,0,30px,0; 
+}
+/* .no4{
+    background-image: url('https://images-cdn.welcomesoftware.com/Zz05NmM1YjFjYjhlNDIxMWViODczZWQzYzBkNTFlNDU4ZA==');
+} */
+.no4 p{
+    display: flex; justify-content: center; ; text-align: center; font-size: 20px;font-weight: bold;
+}
+.no4 h1{
+    display: flex; justify-content: center; margin: 60px,0,30px,0; 
+}
+/* .no5{
+    background-image: url('https://images-cdn.welcomesoftware.com/Zz05NmM1YjFjYjhlNDIxMWViODczZWQzYzBkNTFlNDU4ZA==');
+} */
+.no5 p{
+    display: flex; justify-content: center; ; text-align: center; font-size: 20px;font-weight: bold;
+}
+.no5 h1{
+    display: flex; justify-content: center; margin: 60px,0,30px,0; 
+}
+
+
